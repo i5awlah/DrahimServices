@@ -6,34 +6,111 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		90E4326C2D3C38F300E32D5A /* Drahim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drahim.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		9060219E2D3C5DA600C51AF3 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906021972D3C5DA600C51AF3 /* Localization.swift */; };
+		9060219F2D3C5DA600C51AF3 /* DrahimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060219A2D3C5DA600C51AF3 /* DrahimApp.swift */; };
+		906021A02D3C5DA600C51AF3 /* ServiceCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060219B2D3C5DA600C51AF3 /* ServiceCategories.swift */; };
+		906021A12D3C5DA600C51AF3 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060219C2D3C5DA600C51AF3 /* ServicesView.swift */; };
+		906021A22D3C5DA600C51AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906021922D3C5DA600C51AF3 /* Preview Assets.xcassets */; };
+		906021A32D3C5DA600C51AF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 906021962D3C5DA600C51AF3 /* Localizable.strings */; };
+		906021A42D3C5DA600C51AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906021992D3C5DA600C51AF3 /* Assets.xcassets */; };
+		906021A92D3C5DCA00C51AF3 /* ServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906021A82D3C5DC800C51AF3 /* ServicesViewModel.swift */; };
+		90E432982D3C3ACA00E32D5A /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 90E432972D3C3AC700E32D5A /* swiftgen.yml */; };
+		C8A57D21CE66A53F25C7BC43 /* Pods_Drahim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B22D5EC961B649894E2CC3 /* Pods_Drahim.framework */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		90E4326E2D3C38F300E32D5A /* Drahim */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Drahim;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		32B22D5EC961B649894E2CC3 /* Pods_Drahim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drahim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9E1784A5D35FC12B95474C /* Pods-Drahim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drahim.release.xcconfig"; path = "Target Support Files/Pods-Drahim/Pods-Drahim.release.xcconfig"; sourceTree = "<group>"; };
+		906021922D3C5DA600C51AF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		906021942D3C5DA600C51AF3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906021952D3C5DA600C51AF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906021972D3C5DA600C51AF3 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		906021992D3C5DA600C51AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9060219A2D3C5DA600C51AF3 /* DrahimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimApp.swift; sourceTree = "<group>"; };
+		9060219B2D3C5DA600C51AF3 /* ServiceCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategories.swift; sourceTree = "<group>"; };
+		9060219C2D3C5DA600C51AF3 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		906021A82D3C5DC800C51AF3 /* ServicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewModel.swift; sourceTree = "<group>"; };
+		90E4326C2D3C38F300E32D5A /* Drahim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drahim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E432972D3C3AC700E32D5A /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		DF8C4BA7C3434BFB85881660 /* Pods-Drahim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drahim.debug.xcconfig"; path = "Target Support Files/Pods-Drahim/Pods-Drahim.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90E432692D3C38F300E32D5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A57D21CE66A53F25C7BC43 /* Pods_Drahim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		906021932D3C5DA600C51AF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				906021922D3C5DA600C51AF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		906021982D3C5DA600C51AF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				906021992D3C5DA600C51AF3 /* Assets.xcassets */,
+				906021962D3C5DA600C51AF3 /* Localizable.strings */,
+				906021972D3C5DA600C51AF3 /* Localization.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9060219D2D3C5DA600C51AF3 /* Drahim */ = {
+			isa = PBXGroup;
+			children = (
+				906021A72D3C5DB900C51AF3 /* Models */,
+				906021A62D3C5DB100C51AF3 /* Views */,
+				906021A52D3C5DAB00C51AF3 /* ViewModels */,
+				906021982D3C5DA600C51AF3 /* Resources */,
+				906021932D3C5DA600C51AF3 /* Preview Content */,
+			);
+			path = Drahim;
+			sourceTree = "<group>";
+		};
+		906021A52D3C5DAB00C51AF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				906021A82D3C5DC800C51AF3 /* ServicesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		906021A62D3C5DB100C51AF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9060219A2D3C5DA600C51AF3 /* DrahimApp.swift */,
+				9060219C2D3C5DA600C51AF3 /* ServicesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		906021A72D3C5DB900C51AF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9060219B2D3C5DA600C51AF3 /* ServiceCategories.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		90E432632D3C38F300E32D5A = {
 			isa = PBXGroup;
 			children = (
-				90E4326E2D3C38F300E32D5A /* Drahim */,
+				90E432972D3C3AC700E32D5A /* swiftgen.yml */,
+				9060219D2D3C5DA600C51AF3 /* Drahim */,
 				90E4326D2D3C38F300E32D5A /* Products */,
+				F4B28F5AC2C5756CBA5DAC1B /* Pods */,
+				D7EC9B04E574E696F03DFF99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +122,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D7EC9B04E574E696F03DFF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B22D5EC961B649894E2CC3 /* Pods_Drahim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B28F5AC2C5756CBA5DAC1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8C4BA7C3434BFB85881660 /* Pods-Drahim.debug.xcconfig */,
+				7F9E1784A5D35FC12B95474C /* Pods-Drahim.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90E4327A2D3C38F500E32D5A /* Build configuration list for PBXNativeTarget "Drahim" */;
 			buildPhases = (
+				F68EDD56F893A505C3E22C1E /* [CP] Check Pods Manifest.lock */,
 				90E432682D3C38F300E32D5A /* Sources */,
 				90E432692D3C38F300E32D5A /* Frameworks */,
 				90E4326A2D3C38F300E32D5A /* Resources */,
@@ -60,12 +155,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				90E4326E2D3C38F300E32D5A /* Drahim */,
-			);
 			name = Drahim;
-			packageProductDependencies = (
-			);
 			productName = Drahim;
 			productReference = 90E4326C2D3C38F300E32D5A /* Drahim.app */;
 			productType = "com.apple.product-type.application";
@@ -91,6 +181,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 90E432632D3C38F300E32D5A;
 			minimizedProjectReferenceProxies = 1;
@@ -109,20 +200,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E432982D3C3ACA00E32D5A /* swiftgen.yml in Resources */,
+				906021A22D3C5DA600C51AF3 /* Preview Assets.xcassets in Resources */,
+				906021A32D3C5DA600C51AF3 /* Localizable.strings in Resources */,
+				906021A42D3C5DA600C51AF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F68EDD56F893A505C3E22C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drahim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90E432682D3C38F300E32D5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9060219E2D3C5DA600C51AF3 /* Localization.swift in Sources */,
+				9060219F2D3C5DA600C51AF3 /* DrahimApp.swift in Sources */,
+				906021A02D3C5DA600C51AF3 /* ServiceCategories.swift in Sources */,
+				906021A12D3C5DA600C51AF3 /* ServicesView.swift in Sources */,
+				906021A92D3C5DCA00C51AF3 /* ServicesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		906021962D3C5DA600C51AF3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906021942D3C5DA600C51AF3 /* ar */,
+				906021952D3C5DA600C51AF3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		90E432782D3C38F500E32D5A /* Debug */ = {
@@ -130,6 +267,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -193,6 +331,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -246,6 +385,7 @@
 		};
 		90E4327B2D3C38F500E32D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8C4BA7C3434BFB85881660 /* Pods-Drahim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -265,7 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = khawlah.Drahim;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khawlah.Drahim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -275,6 +415,7 @@
 		};
 		90E4327C2D3C38F500E32D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9E1784A5D35FC12B95474C /* Pods-Drahim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = khawlah.Drahim;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khawlah.Drahim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -1,0 +1,8 @@
+input_dir: Drahim
+output_dir: Drahim/Resources
+strings:
+  inputs:
+    - Resources/ar.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Localization.swift

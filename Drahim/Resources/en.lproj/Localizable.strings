@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  Drahim
+
+  Created by Khawlah on 18/01/2025.
+  
+*/
+
+
+"servicesView.title" = "Drahim Services";
+"services.investment" = "Investment Services";
+"services.expenseManagement" = "Expense Management Services";
+"services.general" = "General Services";
+
+"services.investment.investmentCalculator.title" = "Investment Calculator";
+"services.investment.linkExternalPortfolio.title" = "Link External Portfolio";
+"services.investment.customPortfolios.title" = "Custom Portfolios";
+"services.investment.investmentGoals.title" = "Investment Goals";
+"services.investment.monthlyInvestments.title" = "Monthly Investments";
+"services.investment.createInvestmentPortfolio.title" = "Create Investment Portfolio";
+
+"services.expenseManagement.budgets.title" = "Budgets";
+"services.expenseManagement.createManualAccount.title" = "Create Manual Account";
+"services.expenseManagement.linkBankAccount.title" = "Link Bank Account";
+"services.expenseManagement.manageCommitments.title" = "Manage Commitments";
+
+"services.general.assetManagement.title" = "Asset Management";
+"services.general.drahimGPT.title" = "Drahim GPT";
+"services.general.drahimPlus.title" = "Drahim Plus";
+"services.general.zakatCalculator.title" = "Zakat Calculator";
+
+"services.investment.investmentCalculator.subTitle" = "See how your investments grow over the years";
+"services.investment.linkExternalPortfolio.subTitle" = "Track your external investments seamlessly";
+"services.investment.customPortfolios.subTitle" = "Design your portfolio to match your expertise and goals";
+"services.investment.investmentGoals.subTitle" = "Set your goals and plan step by step to achieve them";
+"services.investment.monthlyInvestments.subTitle" = "Enable monthly deductions to meet your investment goals with ease";
+"services.investment.createInvestmentPortfolio.subTitle" = "Create a portfolio tailored to your financial goals";
+
+"services.expenseManagement.budgets.subTitle" = "Plan weekly, monthly, or annual budgets effortlessly";
+"services.expenseManagement.createManualAccount.subTitle" = "Manage all your bills and loans from one place";
+"services.expenseManagement.linkBankAccount.subTitle" = "Track your bank transactions securely in real time";
+"services.expenseManagement.manageCommitments.subTitle" = "Netflix, YouTube, or any other subscriptions";
+
+"services.general.assetManagement.subTitle" = "Track your money, properties, gold, and more.";
+"services.general.drahimGPT.subTitle" = "Ask Drahim anything using AI";
+"services.general.drahimPlus.subTitle" = "Unlock exclusive features and extra benefits with your subscription";
+"services.general.zakatCalculator.subTitle" = "Easily calculate and fulfill your zakat accurately";
+
+"Hello from %@!" = "Hello from %@!";
+

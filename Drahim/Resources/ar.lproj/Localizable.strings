@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  Drahim
+
+  Created by Khawlah on 18/01/2025.
+  
+*/
+
+
+"servicesView.title" = "خدمات دراهم";
+"services.investment" = "خدمات الاستثمار";
+"services.expenseManagement" = "خدمات متابعة المصاريف";
+"services.general" = "خدمات عامة";
+
+"services.investment.investmentCalculator.title" = "حاسبة الاستثمار";
+"services.investment.linkExternalPortfolio.title" = "ربط محفظة استثمارية خارجية";
+"services.investment.customPortfolios.title" = "تخصيص المحافظ";
+"services.investment.investmentGoals.title" = "الأهداف الاستثمارية";
+"services.investment.monthlyInvestments.title" = "الاستقطاع الشهري";
+"services.investment.createInvestmentPortfolio.title" = "فتح محفظة استثمارية";
+
+"services.expenseManagement.budgets.title" = "أنشئ ميزانية";
+"services.expenseManagement.createManualAccount.title" = "إضافة حساب يدوي";
+"services.expenseManagement.linkBankAccount.title" = "ربط حساب بنكي";
+"services.expenseManagement.manageCommitments.title" = "أدر الالتزامات";
+
+"services.general.assetManagement.title" = "إدارة الأصول";
+"services.general.drahimGPT.title" = "GPT دراهم";
+"services.general.drahimPlus.title" = "دراهم بلس";
+"services.general.zakatCalculator.title" = "حاسبة الزكاة";
+
+"services.investment.investmentCalculator.subTitle" = "اكتشف كم ستنمو استثماراتك على مدى السنوات القادمة";
+"services.investment.linkExternalPortfolio.subTitle" = " تابع استثماراتك الخارجية بكل سهولة";
+"services.investment.customPortfolios.subTitle" = "صمم محفظتك الاستثمارية بما يناسب خبرتك وأهدافك";
+"services.investment.investmentGoals.subTitle" = "حدد أهدافك وخطط لتحقيقها خطوة بخطوة";
+"services.investment.monthlyInvestments.subTitle" = "فعّل الاستقطاع الشهري لتحقيق أهدافك الاستثمارية بسهولة";
+"services.investment.createInvestmentPortfolio.subTitle" = "أنشئ محفظة استثمارية تناسب أهدافك المالية";
+
+"services.expenseManagement.budgets.subTitle" = "خطط لميزانياتك الأسبوعية، الشهرية أو السنوية بسهولة";
+"services.expenseManagement.createManualAccount.subTitle" = "تابع جميع فواتيرك وقروضك من مكان واحد";
+"services.expenseManagement.linkBankAccount.subTitle" = "تتبع عملياتك البنكية الفورية بشكل آمن";
+"services.expenseManagement.manageCommitments.subTitle" = "Netflix أو YouTube أو أي اشتراكات أخرى";
+
+"services.general.assetManagement.subTitle" = "تابع أموالك، عقاراتك، ذهبك، وغير ذلك..";
+"services.general.drahimGPT.subTitle" = "اسأل دراهم أي سؤال باستخدام الذكاء الصناعي";
+"services.general.drahimPlus.subTitle" = "استمتع بمزايا حصرية وخدمات إضافية مع اشتراكك";
+"services.general.zakatCalculator.subTitle" = "احسب زكاتك بدقة وأخرجها بسهولة";
+
+"Hello from %@!" = "مرحبًا بك من %@!";
